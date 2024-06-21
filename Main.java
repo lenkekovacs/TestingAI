@@ -14,5 +14,8 @@ public class Main {
         Polinom difference = p1.difference(p2);
         System.out.println("Sum: " + sum.toString());
         System.out.println("Difference: " + difference.toString());
+        //print multiply of p1 and p2
+        System.out.println("Multiply: " + p1.multiply(p2).toString());
+
     }
 }
